@@ -1,25 +1,42 @@
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import About from './components/About';
 import Portfolio from './components/Project';
+import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 //import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
+
+  const [currentPage, setCurrentPage] = useState("about");
+  let currentComponent;
+  switch (currentPage) {
+    case "portfolio":
+      currentComponent = <Portfolio />;
+      break;
+    case "contact":
+      currentComponent = <ContactForm />;
+      break;
+    case "resume":
+        currentComponent = <Resume />;
+        break;
+    default:
+      currentComponent = <About />;
+
+  };
+
   return (
     <div className="App">
-      <Header />
+      <Header
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      ></Header>
       <main>
-        <section class="content about-me" id="about-me">
-              <div class="content-heading">
-                  <h2>About Me</h2>
-              </div>
-              <div class="about-text">
-                  
-                  <p>I am a web developer who believes in bringing the best possible experience to the end user. A  modern polymath, I have worn many different hats in life: musician, dementia specialist, world traveller, event planner. Above all I am a life-long learner.  I bring  a unique perspective to development, informed by my travels and many experiences in various fields.</p>
-                  
-                  <p>As a citizen of the world, I see technology as an avenue to bring people together and to bridge distances caused by geography, nationality and language.  The web should ultimately be intuitive, accessible and enjoyable. As a developer I see that as my primary responsibility.</p>
-              </div>
-          </section>
+        {currentComponent}
       </main>
       <Footer />
     </div>

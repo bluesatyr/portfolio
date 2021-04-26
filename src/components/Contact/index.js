@@ -33,29 +33,41 @@ function ContactForm() {
         console.log(formState);
     }
 
-    return ( <section>
-        <h1 data-testid="contact-h1">Contact me</h1>
-        <form id="contact-form" onSubmit={handleSubmit}>
+    return ( 
+    
+        <section className="contact-text contact-grid">
             <div>
-                <label htmlFor="name">Name:</label>
-                <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                <h2>Message Me:</h2>
+                <form id="contact-form" onSubmit={handleSubmit}>
+                    <div>
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email address:</label>
+                        <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                    </div>
+                    <div>
+                        <label htmlFor="message">Message:</label><br />
+                        <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button type="submit" data-testid="button">Submit</button>
+                </form>
             </div>
-            <div>
-                <label htmlFor="email">Email address:</label>
-                <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+            <div className="contact-info">
+                <h2>Contact Info:</h2>
+                <p>(647) 447-7429</p>
+                <p>shawn@shawnevans.com</p>
+                <p>https://github.com/bluesatyr</p>
+                <p>https://www.linkedin.com/in/shawn-c-evans/</p>
             </div>
-            <div>
-                <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
-            </div>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
-            <button type="submit" data-testid="button">Submit</button>
-        </form>
-    </section>)
+            
+        </section>)
 }
 
 export default ContactForm;
