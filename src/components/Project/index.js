@@ -16,9 +16,9 @@ const Portfolio = () => {
             image: 'card2'
         },
         {
-            title: 'Tweet-Tracks',
-            deployed: 'https://projone.github.io/tweet-tracks/',
-            github: 'https://github.com/projone/tweet-tracks',
+            title: 'Mind Decks Flashcards',
+            deployed: 'https://group5-project3-uot-duolingo.herokuapp.com/',
+            github: 'https://github.com/Uot-Project3-Group05/uot-project3-group5',
             image: 'card3'
         },
         {
@@ -34,9 +34,9 @@ const Portfolio = () => {
             image: 'card5'
         },
         {
-            title: 'Run Buddy',
-            deployed: 'https://bluesatyr.github.io/run-buddy/',
-            github: 'https://github.com/bluesatyr/horiseon',
+            title: 'Tweet-Tracks',
+            deployed: 'https://projone.github.io/tweet-tracks/',
+            github: 'https://github.com/projone/tweet-tracks',
             image: 'card6'
         },
     ])
