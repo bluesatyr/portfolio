@@ -39,7 +39,7 @@ function ContactForm() {
             <div className="contact-info">
                 <h2>Contact Info:</h2>
                 <p>(647) 447-7429</p>
-                <p><a href="https://shawnevans.com" target="_blank" rel="noopener noreferrer">shawn@shawnevans.com</a></p>
+                <p><a href="mailto:shawn@shawnevans.com">shawn@shawnevans.com</a></p>
                 <p><a href="https://github.com/bluesatyr" target="_blank" rel="noopener noreferrer">GitHub: /bluesatyr</a></p>
                 <p><a href="https://www.linkedin.com/in/shawn-c-evans/" target="_blank" rel="noopener noreferrer">LinkedIn: /shawn-c-evans</a></p>
             </div>
