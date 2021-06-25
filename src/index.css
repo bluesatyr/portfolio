@@ -203,33 +203,22 @@ header nav ul li span:hover, footer ul li a:hover {
 /* Contact Styles */
 .contact-grid {
   width: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 20px;
-  padding: 20px;
-}
-
-.contact-grid form div {
-  margin-top: 10px;;
-}
-
-.contact-grid label {
-  margin-right: 10px;;
-}
-
-.contact-grid input {
-  height: 2em;
-  font-size: 1.1em;
-}
-
-.contact-grid textarea {
-  width: 90%;
-  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
 }
 
 .contact-grid p {
   margin-top: 10px;;
+}
+
+.contact-grid a {
+  color: var(--dark-brown);
+}
+
+.contact-grid a:hover {
+  font-weight: bolder;
 }
 
 /* Resume Styles */

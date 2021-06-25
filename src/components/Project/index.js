@@ -46,7 +46,7 @@ const Portfolio = () => {
             {/* Grid Container */}
             <div className="project-grid">
                 {projects.map((project) => (
-                    <a href={`${project.deployed}`} className={`card ${project.image}`}  target="_blank" rel="noopener noreferrer"s>
+                    <a href={`${project.deployed}`} className={`card ${project.image}`}  target="_blank" rel="noopener noreferrer" key={`${project.key}`}>
                         <div>
                             <h3>{project.title}</h3>
                             <div className="overlay"></div>
