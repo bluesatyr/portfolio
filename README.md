@@ -10,7 +10,7 @@ A simple web development portfolio built with React.js
 
 ## Deployment
 
-The website is deployed at https://bluesatyr.github.io/react-portfolio/
+The website is deployed at https://bluesatyr.github.io/portfolio/
 
 
 ## Questions
