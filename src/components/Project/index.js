@@ -4,10 +4,10 @@ const Portfolio = () => {
 
     const [projects] = useState([
         {
-            title: 'Nanji-desu-ka',
-            deployed: 'https://bluesatyr.github.io/nanji-desu-ka/',
-            github: 'https://github.com/bluesatyr/nanji-desu-ka',
-            image: 'card1' 
+            title: 'Mind Decks Flashcards',
+            deployed: 'https://group5-project3-uot-duolingo.herokuapp.com/',
+            github: 'https://github.com/Uot-Project3-Group05/uot-project3-group5',
+            image: 'card3'
         },
         {
             title: 'SWATCH Makeup Reviews',
@@ -16,10 +16,16 @@ const Portfolio = () => {
             image: 'card2'
         },
         {
-            title: 'Mind Decks Flashcards',
-            deployed: 'https://group5-project3-uot-duolingo.herokuapp.com/',
-            github: 'https://github.com/Uot-Project3-Group05/uot-project3-group5',
-            image: 'card3'
+            title: 'Tweet-Tracks',
+            deployed: 'https://projone.github.io/tweet-tracks/',
+            github: 'https://github.com/projone/tweet-tracks',
+            image: 'card6'
+        },
+        {
+            title: 'Nanji-desu-ka',
+            deployed: 'https://bluesatyr.github.io/nanji-desu-ka/',
+            github: 'https://github.com/bluesatyr/nanji-desu-ka',
+            image: 'card1' 
         },
         {
             title: 'Okami SCA',
@@ -32,12 +38,6 @@ const Portfolio = () => {
             deployed: 'http://bluesatyr-tech-blog.herokuapp.com/',
             github: 'https://github.com/bluesatyr/tech-blog',
             image: 'card5'
-        },
-        {
-            title: 'Tweet-Tracks',
-            deployed: 'https://projone.github.io/tweet-tracks/',
-            github: 'https://github.com/projone/tweet-tracks',
-            image: 'card6'
         },
     ])
 
