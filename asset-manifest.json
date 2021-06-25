@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.74208d9d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.2a5e9873.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.2a5e9873.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.4d305f84.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.4d305f84.js.map",
+    "static/js/2.db5378bb.chunk.js": "/react-portfolio/static/js/2.db5378bb.chunk.js",
+    "static/js/2.db5378bb.chunk.js.map": "/react-portfolio/static/js/2.db5378bb.chunk.js.map",
+    "static/js/3.bccf2d90.chunk.js": "/react-portfolio/static/js/3.bccf2d90.chunk.js",
+    "static/js/3.bccf2d90.chunk.js.map": "/react-portfolio/static/js/3.bccf2d90.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.74208d9d.chunk.css.map": "/react-portfolio/static/css/main.74208d9d.chunk.css.map",
+    "static/js/2.db5378bb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.db5378bb.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/react-portfolio/static/media/avatar.8a43bc04.jpg",
+    "static/media/index.css": "/react-portfolio/static/media/tweet-tracks.7ea1f341.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d305f84.js",
+    "static/js/2.db5378bb.chunk.js",
+    "static/css/main.74208d9d.chunk.css",
+    "static/js/main.2a5e9873.chunk.js"
+  ]
+}
